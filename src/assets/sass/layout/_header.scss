@@ -56,6 +56,8 @@
 					margin-left: 0.75em;
 				}
 
+					
+
 				&[href="#menu"] {
 					@include icon;
 					@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');

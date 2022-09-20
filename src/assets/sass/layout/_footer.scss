@@ -28,6 +28,13 @@
       width: calc(50% - #{_size(section-spacing, large) * 0.5});
     }
 
+    .tuberose {
+      float:right;
+      display:inline;
+      margin-left:inherit;
+      size: 10em;
+    }
+
     .copyright {
       border-top: solid 2px _palette(border);
       list-style: none;

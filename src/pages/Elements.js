@@ -2,12 +2,12 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
-import pic8 from '../assets/images/pic08.jpg';
+import pic1 from '../assets/images/pic01.png';
+import pic2 from '../assets/images/pic02.png';
+import pic5 from '../assets/images/pic05.png';
+import pic6 from '../assets/images/pic06.png';
+import pic7 from '../assets/images/pic07.png';
+import pic8 from '../assets/images/pic08.png';
 const IndexPage = () => <Layout fullMenu>
 <section id="wrapper">
 		<header>
