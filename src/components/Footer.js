@@ -1,5 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("xzbweqal");
   if (state.succeeded) {
@@ -16,7 +18,7 @@ export default function Footer() {
         <p>
           Send us a message and we'll get back as soon as possible.
         </p>
-        <form method="post" action="/#">
+        <form method="post" action="https://formspree.io/f/xzbweqal">
           <div className="fields">
             <div className="field">
               <label htmlFor="name">Name</label>

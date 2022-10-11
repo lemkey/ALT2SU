@@ -8,7 +8,7 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Page not found</h2>
-          <p>Not a valid URL</p>
+          <p>Don't Despair!!!</p>
         </div>
       </header>
     </section>

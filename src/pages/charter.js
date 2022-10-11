@@ -1,12 +1,12 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import logo1 from '../assets/images/logo1.jpg'
+import logo2 from '../assets/images/logo2.png'
 
 const CharterPage = () => (
 
     <Layout>
-    <img src={logo1} width="1850rem" alt="logo" />
+    <img src={logo2} width="1650 rem" alt="logo" opacity="0.3"/>
     <br>
     </br>
     <br>
@@ -16,8 +16,12 @@ const CharterPage = () => (
     <br>
     </br>
     <p className="text">
-    <h1 className="top-bullet">CHARTER</h1>
- 
+    <h1 className="top-bullet">ALT2SU CHARTER</h1>
+    <h2 className="top-bullet">Written by the Wildflower Alliance</h2>
+    <br>
+    </br>
+    <br>
+    </br>
     <h2>RESPONSIBILITY TO - AND NOT FOR OR OVER</h2>
 
     <p>As a community, we are responsible to be honest, transparent and present with one another, but cannot be responsible for one another's choices or actions. Both experience and research have shown that when the system takes responsibility for or over an individual, through force and/or coercion, the typical result is often more trauma, isolation, and disconnection. Trauma, isolation, disconnection have been linked to increases in suicide rates.

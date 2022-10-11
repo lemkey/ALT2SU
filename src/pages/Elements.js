@@ -7,7 +7,8 @@ import pic2 from '../assets/images/pic02.png';
 import pic5 from '../assets/images/pic05.png';
 import pic6 from '../assets/images/pic06.png';
 import pic7 from '../assets/images/pic07.png';
-import pic8 from '../assets/images/pic08.png';
+
+
 const IndexPage = () => <Layout fullMenu>
 <section id="wrapper">
 		<header>
@@ -309,7 +310,6 @@ const IndexPage = () => <Layout fullMenu>
 						<h4>Fit</h4>
 						<div className="box alt">
 							<div className="row gtr-uniform">
-								<div className="col-12"><span className="image fit"><img src={pic8} alt="" /></span></div>
 								<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
 								<div className="col-4"><span className="image fit"><img src={pic6} alt="" /></span></div>
 								<div className="col-4"><span className="image fit"><img src={pic7} alt="" /></span></div>

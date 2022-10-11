@@ -11,8 +11,11 @@ import pic6 from '../assets/images/pic06.png';
 
 
 import config from '../../config';
+import App from './app';
+
 const IndexPage = () => (
   <Layout>
+    <App />
     <section id="banner">
       <div className="inner">
         <div className="logo">
@@ -32,8 +35,8 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">What is Alternatives to Suicide?</h2>
             <p>
-            Alternatives to Suicide NYC is a weekly facilitated group discussion and peer support network led by people who have lived experience of suicidal thoughts and feelings. The aim of the group is to offer a non-clinical and mutually supportive space to talk about circumstances and feelings that lead to suicidal contemplation or planning. 
-            The group does not suggest to cure anyone. Instead of trying to "fix" people, Alternatives to Suicide builds a community where everyone can be met with compassion, sincerity, and real connection. 
+            Alternatives to Suicide NYC is a facilitated group discussion and peer support network led by people who have lived experience of suicidal thoughts and feelings. The aim of the group is to offer a non-clinical and mutually supportive space to talk about circumstances and feelings that lead to suicidal contemplation or planning. 
+            The group does not claim to cure anyone. Instead of trying to "fix" people, Alternatives to Suicide builds a community where everyone can be met with compassion, sincerity, and real connection. 
             </p>
           </div>
         </div>
@@ -45,20 +48,22 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Some Core Values</h2>
+            <h2 className="major">Core Values</h2>
             <p>
-              <ul>
+              <ol>
               <li>Each person is honored as the expert of their own experiences</li>
-              <li>Attendance is completely voluntary and self-determined and not recorded or tallied</li>
-              <li>Ordinary, common language is used</li>
-              <li>Willingness to sit with people in deep distress and explore thoughts and feelings without jumping to clinical or other interventions </li>
-              <li>Freedom to interpret one’s own experiences in any way is central</li>
-              <li>Freedom to challenge social norms is present and openly explored</li>
-              <li>Freedom to talk about anything, not just thoughts of suicide</li>
-              <li>No assumption of illness, including no assumption that suicidal thoughts are connected to mental illness</li>
-              <li>Differences between suicide and self-injury or other ways of coping are acknowledged and respected</li>
-              <li>We see this group as a way to confront racism, sexism, homophobia and other forms of institutional discrimination</li>
-            </ul>
+              <li>Attendance is voluntary and self-determined, nothing is recorded or tallied</li>
+              <li>Ordinary, common language is used and clinical terminology is discouraged</li>
+              <li>We are willing to sit with each other when we experience deep distress and explore thoughts and feelings related to that distress</li>
+              <li>We avoid suggesting "solutions" to each other and outside intervention is forbidden unless someone is actively in danger</li>
+              <li>The freedom to interpret one’s own experiences in any way is central</li>
+              <li>The freedom to challenge social norms is present and openly explored</li>
+              <li>We are welcome to talk about anything, not just thoughts of suicide</li>
+              <li>There is no assumption of illness, including no assumption that suicidal thoughts are connected to mental illness</li>
+              <li>The differences between suicide and self-injury or other ways of coping are acknowledged and respected</li>
+              <li>We see this group as a way to confront racism, sexism, classism, homophobia, transphobia, and other forms of institutional discrimination</li>
+              <li>We respond to each other with interested questions or personal statements about our own experiences that relate or resonate</li>
+            </ol>
             </p>
           </div>
         </div>
@@ -90,7 +95,7 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
+              <a href="/meeting" className="image">
                 <img src={pic4} alt="" />
               </a>
               <h3 className="major">Location</h3>
@@ -102,7 +107,7 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/facilitators" className="image">
                 <img src={pic5} alt="" />
               </a>
               <h3 className="major">About the Facilitators</h3>
@@ -114,7 +119,7 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/charter" className="image">
                 <img src={pic6} alt="" />
               </a>
               <h3 className="major">Alternatives to Suicide Charter</h3>

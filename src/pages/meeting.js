@@ -1,19 +1,19 @@
 import React from "react";
 import Layout from '../components/Layout';
 import { Link } from 'gatsby';
-import logo1 from '../assets/images/logo1.jpg'
-import Footer from "../components/Footer";
+import logo2 from '../assets/images/logo2.png';
+import { MDBBtn } from 'mdb-react-ui-kit';
 
 
-function Button({children}) {
-  return <button>{children}</button>;
-}
+// function Button({children}) {
+//   return <button>{children}</button>;
+// }
 
 const Meetings = () => (
 
   <Layout>
 
-    <img src={logo1} width="1850rem" alt="logo" />
+    <img src={logo2} width="1650rem" alt="logo" />
     <br></br>
     <br></br>
     <br></br>
@@ -32,9 +32,8 @@ const Meetings = () => (
     <br></br>
     <br></br>
     <Link to="https://wildfloweralliance.org/online-support-groups/" target="_blank">
-      <Button> Wildflower Alliance Groups Online</Button>
+      <MDBBtn size='lg' color='danger'> Wildflower Alliance Groups Online</MDBBtn>
     </Link>
-    {Location.pathname =='/meeting' !== <Footer />}
     </p>
     </p>
     <br></br>
