@@ -13,7 +13,7 @@ const Meetings = () => (
 
   <Layout>
 
-    <img src={logo2} width="1650rem" alt="logo" />
+    <img src={logo2}  alt="logo" />
     <br></br>
     <br></br>
     <br></br>

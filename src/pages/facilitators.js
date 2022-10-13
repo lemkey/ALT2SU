@@ -9,14 +9,14 @@ const Facilitators = () => (
 
   <Layout>
     <>
-    <img src={logo2} width="1650rem" alt="logo" />
+    <img src={logo2} className="image" alt="logo" />
     <br></br>
     <br></br>
     <br></br>
     <br></br>
     <p className="section-bio">
     <p className="text">
-    <img className="bio-image" src={pic12} width="300rem" alt="abandoned stone building"/>
+    <img src={pic12} className="bio-image" alt="abandoned stone building"/>
     
     <h1>NEESA SUNAR:</h1>
     <br></br>
